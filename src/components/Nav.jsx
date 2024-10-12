@@ -53,7 +53,7 @@ export default function Nav() {
   </div>
   <div className="navbar-end">
     <a className="btn">Location <i class="fa-solid fa-location-crosshairs"></i></a>
-    <a className="btn mx-5">Loging</a>
+    <a className="btn mx-7">Loging</a>
   </div>
 </div>     
     </div>
