@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nav() {
   return (
-    <div>
+    <div className='nav'>
    <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -42,9 +42,9 @@ export default function Nav() {
       <li>
         <details>
           <summary>Services</summary>
-          <ul className="p-2">
-            <li><a>Local Shifting</a></li>
-            <li><a>Packing Service</a></li>
+          <ul className='p-2 bg-gray-200'>
+            <li className='text-gray-900'><a>Local Shifting</a></li>
+            <li className='text-gray-900'><a>Packing Service</a></li>
           </ul>
         </details>
       </li>
@@ -52,8 +52,8 @@ export default function Nav() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-blue-900 text-neutral-300">Location <i class="fa-solid fa-location-crosshairs"></i></a>
-    <a className="btn mx-7 bg-blue-900 text-neutral-300">Loging</a>
+    <a className="btn bg-stone-400 ">Location <i class="fa-solid fa-location-crosshairs"></i></a>
+    <a className="btn mx-7  bg-stone-400">Loging</a>
   </div>
 </div>     
     </div>

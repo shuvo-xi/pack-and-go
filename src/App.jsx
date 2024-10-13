@@ -1,13 +1,16 @@
 import './App.css'
 import Nav from './components/Nav'
 import Home from './pages/Home'
+import Footer from './pages/Footer'
 function App() {
 
 
   return (
     <>
-<Nav/>
-<Home></Home>
+    <div><Nav/></div>
+<div><Home/></div>
+<Footer/>
+
     </>
   )
 }

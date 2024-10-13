@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Navbar যাতে সবার উপরে থাকে */
+    background-color: #fff; /* Navbar এর জন্য পটভূমি রঙ */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* একটু shadow */
+  }
+  
+  .ho {
+    padding-top: 80px; /* Navbar এর height এর সমান বা তার থেকে একটু বেশি */
+    /* অন্য style গুলো */
+  }
+  .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
