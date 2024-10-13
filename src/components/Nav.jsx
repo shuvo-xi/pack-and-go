@@ -52,8 +52,8 @@ export default function Nav() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-stone-400 ">Location <i class="fa-solid fa-location-crosshairs"></i></a>
-    <a className="btn mx-7  bg-stone-400">Loging</a>
+    <a className="btn bg-blue-500 ">Location <i class="fa-solid fa-location-crosshairs"></i></a>
+    <a className="btn mx-7 bg-blue-500">Loging</a>
   </div>
 </div>     
     </div>

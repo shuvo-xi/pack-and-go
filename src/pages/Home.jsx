@@ -31,7 +31,7 @@ export default function Home() {
   };
 
   return (
-    <div className='w-4/6 mx-auto mt-1 pb-10'>
+    <div className='w-4/6 mx-auto mt-1 pb-10 pt-20'>
       {/* Banner Section */}
       <div className="carousel w-full mb-6">
         <div id="slide1" className="carousel-item relative w-full">
